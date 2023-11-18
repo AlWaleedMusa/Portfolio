@@ -7,7 +7,7 @@
 body {
   color: white;
   font-family: 'Roboto', sans-serif;
-  background-image: url(background.jpg);
+  background-image: url(images/background.jpg);
 }
 
 .main-nav {
@@ -35,7 +35,7 @@ body {
 .logo {
 	width: 220px;
 	height: 100%;
-	background-image: url(logo.png);
+	background-image: url(images/logo.png);
 	background-repeat: no-repeat;
 	background-size: 150%;
 	background-position: center;
