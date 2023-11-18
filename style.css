@@ -70,11 +70,11 @@ body {
 }
 
 .landing-page {
-	height: 80vh;
+	height: 85vh;
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	gap: 4em;
+	gap: 5em;
 }
 
 .pic-container img {
@@ -82,37 +82,46 @@ body {
 	border-radius: 50%;
 }
 
-.landing-page h2 {
+/* .landing-page h2 {
 	margin-top: -1em;
 	font-size: 3em;
 	color: rgb(85, 85, 85);
-}
+} */
 
 .landing-page p {
 	font-size: 1em;
 	color: rgb(85, 85, 85);
 	text-align: center;
-	padding-top: 1.5em;
+	/* padding-top: 1.5em; */
 }
 
 .text-container {
 	position: relative;
+	margin-top: -4rem;
+}
+
+.text-container p:first-child {
+	font-size: 3rem;
+	font-weight: bolder;
+	margin-bottom: 1.5rem;
 }
 
 .btn {
 	position: absolute;
 	top: 100%;
 	left: 20%;
-	padding-top: 1.5em;
+	padding-top: 2em;
 }
 
 .btn button {
-	padding: .7em 1em;
+	padding: .7em 1.2em;
 	margin: auto;
 	border: none;
 	background-color: rgb(224, 224, 224);
 	border-radius: 10px;
 	margin: 0 6px;
+	font-weight: bold;
+	color: rgb(53, 53, 53);
 }
 
 .btn button:hover {
