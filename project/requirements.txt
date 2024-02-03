@@ -1,3 +1,0 @@
-pip install tabulate
-pip install schedule
-pip install plyer
