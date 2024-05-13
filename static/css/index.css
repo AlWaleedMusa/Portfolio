@@ -1,0 +1,51 @@
+body {
+    background-color: #2A2C31;
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+
+.socials {
+    width: 320px;
+    height: 50px;
+    background-color: #3E4147;
+    color: white;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.hire-me-btn {
+    background-color: #FFEE4A;
+    width: 100px;
+    height: 35px;
+    border-radius: 50px;
+    border: none;
+}
+
+.profile_image {
+    display: block;
+}
+
+.profile-information {
+    background-color: #3E4147;
+    width: 910px;
+    height: 310px;
+    border-radius: 10px;
+    margin: 0 auto;
+    margin-top: 150px;
+    display: flex;
+    justify-content: center;
+}
+
+.profile_image img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-top: -75px;
+    border: 7px solid #3E4147;
+}
+
+.name {
+    display: block;
+}
