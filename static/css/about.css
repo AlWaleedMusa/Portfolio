@@ -44,7 +44,8 @@ body {
     border-radius: 50px;
     border: none;
     color: #FFFFFF;
-    font-weight: 500;
+    font-weight: 700;
+    font-size: 16px;
 }
 
 .profile-information {
@@ -76,8 +77,8 @@ body {
 }
 
 .summary {
-    font-size: 1.1em;
-    font-weight: 400;
+    font-size: 1.2em;
+    font-weight: 300;
     color: #a5b3ce;
     width: 80%;
 }
@@ -125,4 +126,31 @@ body {
     background-color: #3E4147;
     border-radius: 10px;
     margin: 0 auto;
+}
+
+.side-menu {
+    color: red;
+    position: fixed;
+    top: 185px;
+    left: 10px;
+    width: 70px;
+    height: 760px;
+}
+
+.menu-text {
+    color: #FFFFFF;
+    font-size: 9px;
+    text-transform: uppercase;
+    margin-top: 5px;
+    font-weight: 700;
+}
+
+a:focus svg path, a:focus svg circle{
+    fill: #e96750;
+    transition: all 0.1s ease;
+}
+a:focus p {
+    color: #e96750;
+    transition: all 0.1s ease;
+
 }
