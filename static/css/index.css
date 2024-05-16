@@ -1,13 +1,31 @@
+@media screen and (max-width:576px) {
+    .skills-information img {
+        width: 40px;
+        height: 40px;
+        margin-top: 30px;
+    }
+}
+
+@media screen and (min-width: 576px) {
+    .skills-information img {
+        width: 75px;
+        height: 80px;
+        margin-top: 50px;
+
+    }
+}
+
 body {
     background-color: #2A2C31;
     padding: 0;
     margin: 0;
     font-family: 'Roboto', sans-serif;
     box-sizing: border-box;
+    min-width: 320px;
 }
 
 .socials {
-    width: 320px;
+    width: 30%;
     height: 50px;
     background-color: #3E4147;
     color: white;
@@ -15,37 +33,96 @@ body {
     border-bottom-right-radius: 20px;
 }
 
-.hire-me-btn {
-    background-color: #FFEE4A;
-    width: 100px;
-    height: 35px;
-    border-radius: 50px;
-    border: none;
+.socials a svg:hover {
+    fill: #e96750;
 }
 
-.profile_image {
-    display: block;
+.hire-me-btn {
+    background-color: #e96750;
+    width: 6em;
+    height: 2.2em;
+    border-radius: 50px;
+    border: none;
+    color: #FFFFFF;
+    font-weight: 500;
 }
 
 .profile-information {
     background-color: #3E4147;
-    width: 910px;
-    height: 310px;
     border-radius: 10px;
     margin: 0 auto;
     margin-top: 150px;
     display: flex;
+    flex-direction: column;
     justify-content: center;
+    align-items: center;
+    padding-bottom: 20px;
+
 }
 
-.profile_image img {
-    width: 150px;
-    height: 150px;
+.profile-information img {
+    width: 160px;
+    height: 160px;
     border-radius: 50%;
-    margin-top: -75px;
-    border: 7px solid #3E4147;
+    margin-top: -80px;
+    border: 6px solid #3E4147;
 }
 
 .name {
-    display: block;
+    font-weight: 900;
+    letter-spacing: .8px;
+    font-size: 1.8em;
+    color: #FFFFFF;
+}
+
+.summary {
+    font-size: 1.1em;
+    font-weight: 400;
+    color: #a5b3ce;
+    width: 80%;
+}
+
+.button {
+    background-color: #2A2C31;
+    border-radius: 50px;
+    font-weight: 500;
+    color: #FFFFFF;
+    border: none;
+}
+
+.resume-button {
+    width: 230px;
+    height: 60px;
+    margin-top: 20px;
+    font-size: 1em;
+}
+
+.view-more-button{
+    width: 150px;
+    height: 50px;
+    margin-top: 10px;
+    font-size: 1em;
+}
+
+.skills-information {
+    border-radius: 10px;
+    margin: 0 auto;
+}
+
+.big-header {
+    font-weight: 900;
+    font-size: 2.5em;
+    color: #FFFFFF;
+}
+
+.small-header {
+    font-weight: 700;
+    font-size: 20px;
+    color: #FFFFFF;
+}
+
+.projects-information {
+    background-color: #3E4147;
+    border-radius: 10px;
+    margin: 0 auto;
 }
