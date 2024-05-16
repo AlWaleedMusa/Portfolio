@@ -35,6 +35,7 @@ body {
 
 .socials a svg:hover {
     fill: #e96750;
+    transition: all 0.3s ease;
 }
 
 .hire-me-btn {
@@ -128,29 +129,30 @@ body {
     margin: 0 auto;
 }
 
-.side-menu {
-    color: red;
-    position: fixed;
-    top: 185px;
-    left: 10px;
-    width: 70px;
-    height: 760px;
-}
-
 .menu-text {
-    color: #FFFFFF;
+    color: #a5b3ce;
     font-size: 9px;
     text-transform: uppercase;
     margin-top: 5px;
     font-weight: 700;
 }
 
-a:focus svg path, a:focus svg circle{
+.side-menu a:focus svg path, a:focus svg circle{
     fill: #e96750;
-    transition: all 0.1s ease;
+    transition: all 0.2s ease;
 }
-a:focus p {
+.side-menu a:focus p {
     color: #e96750;
-    transition: all 0.1s ease;
+    transition: all 0.2s ease;
 
+}
+
+.side-menu a:not(:focus):hover svg path, a:not(:focus):hover svg circle {
+    fill: hsl(0, 0%, 100%, .9);
+    transition: all 0.2s ease;
+}
+
+.side-menu a:not(:focus):hover p {
+    color: hsl(0, 0%, 100%, .9);
+    transition: all 0.2s ease;
 }

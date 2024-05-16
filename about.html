@@ -53,42 +53,42 @@
 
     <!-- side menu -->
     <div class="d-lg-block d-none">
-      <div class="collapse" style="position: fixed; top: 205px; left: 10px; width: 70px; height: 760px;" id="navbarToggleExternalContent" data-bs-theme="dark">
+      <div class="collapse side-menu" style="position: fixed; top: 205px; left: 10px; width: 70px; height: 760px;" id="navbarToggleExternalContent" data-bs-theme="dark">
         <div class="p-4 d-flex flex-column justify-content-center align-items-center text-center" style="background-color: #3E4147; border-radius: 10px;">
           <div>
-            <a href="#" style="text-decoration: none;">
-              <svg width="21" height="24" viewBox="0 0 22 23" fill="none" xmlns="http://www.w3.org/2000/svg">
-                  <path d="M20.7555 21.2169C21.3451 21.094 21.6962 20.478 21.4164 19.9446C20.6659 18.5139 19.438 17.2568 17.8485 16.3082C15.8838 15.1356 13.4765 14.5 11 14.5C8.52346 14.5 6.11615 15.1356 4.1514 16.3082C2.56196 17.2568 1.33401 18.5139 0.583527 19.9446C0.303753 20.478 0.654828 21.094 1.24444 21.2169L2.8391 21.5492C8.22185 22.671 13.7781 22.671 19.1608 21.5492L20.7555 21.2169Z" fill="white"/>
-                  <circle cx="11" cy="7" r="6.25" fill="white"/>
+            <a href="#" id="active" style="text-decoration: none;">
+              <svg width="21" height="24" viewBox="0 0 22 23" fill="#a5b3ce" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M20.7555 21.2169C21.3451 21.094 21.6962 20.478 21.4164 19.9446C20.6659 18.5139 19.438 17.2568 17.8485 16.3082C15.8838 15.1356 13.4765 14.5 11 14.5C8.52346 14.5 6.11615 15.1356 4.1514 16.3082C2.56196 17.2568 1.33401 18.5139 0.583527 19.9446C0.303753 20.478 0.654828 21.094 1.24444 21.2169L2.8391 21.5492C8.22185 22.671 13.7781 22.671 19.1608 21.5492L20.7555 21.2169Z" fill="#a5b3ce"/>
+                  <circle cx="11" cy="7" r="6.25" fill="#a5b3ce"/>
               </svg>
               <p class="menu-text">About</p>
             </a>
           </div>
           <div class="pt-1">
             <a href="#" style="text-decoration: none;">
-              <svg width="20" height="26" viewBox="0 0 18 22" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path fill-rule="evenodd" clip-rule="evenodd" d="M6.67505 20.5893L1.92505 17.1965C1.1039 16.6099 0.693329 16.3167 0.471665 15.8859C0.25 15.4552 0.25 14.9507 0.25 13.9415V8.05849C0.25 7.73714 0.25 7.46696 0.257158 7.23403L8 12.7646V21.4813C7.64325 21.2809 7.22699 20.9836 6.67505 20.5893ZM10 21.4813C10.3567 21.2809 10.773 20.9836 11.325 20.5893L16.075 17.1965L16.075 17.1965C16.8961 16.6099 17.3067 16.3167 17.5283 15.8859C17.75 15.4552 17.75 14.9507 17.75 13.9415V8.05849C17.75 7.73714 17.75 7.46696 17.7428 7.23403L10 12.7646V21.4813ZM16.8776 5.39429L9 11.0211L1.12244 5.39429C1.33373 5.22593 1.59653 5.03821 1.92505 4.80355L6.67505 1.4107L6.67505 1.4107C7.79773 0.608782 8.35907 0.207825 9 0.207825C9.64093 0.207825 10.2023 0.608783 11.325 1.4107L16.075 4.80356C16.4035 5.03821 16.6663 5.22593 16.8776 5.39429Z" fill="white"/>
+              <svg width="20" height="26" viewBox="0 0 18 22" fill="#a5b3ce" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M6.67505 20.5893L1.92505 17.1965C1.1039 16.6099 0.693329 16.3167 0.471665 15.8859C0.25 15.4552 0.25 14.9507 0.25 13.9415V8.05849C0.25 7.73714 0.25 7.46696 0.257158 7.23403L8 12.7646V21.4813C7.64325 21.2809 7.22699 20.9836 6.67505 20.5893ZM10 21.4813C10.3567 21.2809 10.773 20.9836 11.325 20.5893L16.075 17.1965L16.075 17.1965C16.8961 16.6099 17.3067 16.3167 17.5283 15.8859C17.75 15.4552 17.75 14.9507 17.75 13.9415V8.05849C17.75 7.73714 17.75 7.46696 17.7428 7.23403L10 12.7646V21.4813ZM16.8776 5.39429L9 11.0211L1.12244 5.39429C1.33373 5.22593 1.59653 5.03821 1.92505 4.80355L6.67505 1.4107L6.67505 1.4107C7.79773 0.608782 8.35907 0.207825 9 0.207825C9.64093 0.207825 10.2023 0.608783 11.325 1.4107L16.075 4.80356C16.4035 5.03821 16.6663 5.22593 16.8776 5.39429Z" fill="#a5b3ce"/>
               </svg>
               <p class="menu-text">Projects</p>
             </a>
           </div>
           <div class="pt-2">
             <a href="#" style="text-decoration: none;">
-              <svg width="20" height="25" viewBox="0 0 20 25" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path fill-rule="evenodd" clip-rule="evenodd" d="M7.5 0.25C5.84315 0.25 4.5 1.59315 4.5 3.25H4.375C2.61942 3.25 1.74163 3.25 1.11107 3.67133C0.838099 3.85372 0.603722 4.0881 0.421326 4.36107C0 4.99163 0 5.86942 0 7.625V19.5C0 21.857 0 23.0355 0.732233 23.7678C1.46447 24.5 2.64298 24.5 5 24.5H15C17.357 24.5 18.5355 24.5 19.2678 23.7678C20 23.0355 20 21.857 20 19.5V7.625C20 5.86942 20 4.99163 19.5787 4.36107C19.3963 4.0881 19.1619 3.85372 18.8889 3.67133C18.2584 3.25 17.3806 3.25 15.625 3.25H15.5C15.5 1.59315 14.1569 0.25 12.5 0.25H7.5ZM7.75 3.25C7.75 2.69772 8.19771 2.25 8.75 2.25H11.25C11.8023 2.25 12.25 2.69772 12.25 3.25C12.25 3.80228 11.8023 4.25 11.25 4.25H8.75C8.19771 4.25 7.75 3.80228 7.75 3.25ZM6.25 11C5.69772 11 5.25 11.4477 5.25 12C5.25 12.5523 5.69772 13 6.25 13H13.75C14.3023 13 14.75 12.5523 14.75 12C14.75 11.4477 14.3023 11 13.75 11H6.25ZM6.25 16C5.69772 16 5.25 16.4477 5.25 17C5.25 17.5523 5.69772 18 6.25 18H11.25C11.8023 18 12.25 17.5523 12.25 17C12.25 16.4477 11.8023 16 11.25 16H6.25Z" fill="white"/>
+              <svg width="20" height="25" viewBox="0 0 20 25" fill="#a5b3ce" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M7.5 0.25C5.84315 0.25 4.5 1.59315 4.5 3.25H4.375C2.61942 3.25 1.74163 3.25 1.11107 3.67133C0.838099 3.85372 0.603722 4.0881 0.421326 4.36107C0 4.99163 0 5.86942 0 7.625V19.5C0 21.857 0 23.0355 0.732233 23.7678C1.46447 24.5 2.64298 24.5 5 24.5H15C17.357 24.5 18.5355 24.5 19.2678 23.7678C20 23.0355 20 21.857 20 19.5V7.625C20 5.86942 20 4.99163 19.5787 4.36107C19.3963 4.0881 19.1619 3.85372 18.8889 3.67133C18.2584 3.25 17.3806 3.25 15.625 3.25H15.5C15.5 1.59315 14.1569 0.25 12.5 0.25H7.5ZM7.75 3.25C7.75 2.69772 8.19771 2.25 8.75 2.25H11.25C11.8023 2.25 12.25 2.69772 12.25 3.25C12.25 3.80228 11.8023 4.25 11.25 4.25H8.75C8.19771 4.25 7.75 3.80228 7.75 3.25ZM6.25 11C5.69772 11 5.25 11.4477 5.25 12C5.25 12.5523 5.69772 13 6.25 13H13.75C14.3023 13 14.75 12.5523 14.75 12C14.75 11.4477 14.3023 11 13.75 11H6.25ZM6.25 16C5.69772 16 5.25 16.4477 5.25 17C5.25 17.5523 5.69772 18 6.25 18H11.25C11.8023 18 12.25 17.5523 12.25 17C12.25 16.4477 11.8023 16 11.25 16H6.25Z" fill="#a5b3ce"/>
               </svg>
               <p class="menu-text">Resume</p>
             </a>
           </div>
           <div class="pt-2">
             <a href="#" style="text-decoration: none;">
-              <svg width="23" height="18" viewBox="0 0 24 18" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path fill-rule="evenodd" clip-rule="evenodd" d="M0.752394 5.14529C0.75 5.48754 0.75 5.85498 0.75 6.25V11.75C0.75 14.5784 0.75 15.9926 1.62868 16.8713C2.50736 17.75 3.92157 17.75 6.75 17.75H17.25C20.0784 17.75 21.4926 17.75 22.3713 16.8713C23.25 15.9926 23.25 14.5784 23.25 11.75V6.25C23.25 5.85498 23.25 5.48754 23.2476 5.14529L12.9713 10.8544C12.3672 11.1899 11.6328 11.1899 11.0287 10.8544L0.752394 5.14529ZM0.853678 3.00513C0.984025 3.01865 1.11384 3.05818 1.23564 3.12584L12 9.10604L22.7644 3.12584C22.8862 3.05818 23.016 3.01866 23.1463 3.00514C23.0386 2.16313 22.819 1.57639 22.3713 1.12868C21.4926 0.25 20.0784 0.25 17.25 0.25H6.75C3.92157 0.25 2.50736 0.25 1.62868 1.12868C1.18097 1.57639 0.961382 2.16313 0.853678 3.00513Z" fill="#FFFDFD"/>
+              <svg width="23" height="18" viewBox="0 0 24 18" fill="#a5b3ce" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M0.752394 5.14529C0.75 5.48754 0.75 5.85498 0.75 6.25V11.75C0.75 14.5784 0.75 15.9926 1.62868 16.8713C2.50736 17.75 3.92157 17.75 6.75 17.75H17.25C20.0784 17.75 21.4926 17.75 22.3713 16.8713C23.25 15.9926 23.25 14.5784 23.25 11.75V6.25C23.25 5.85498 23.25 5.48754 23.2476 5.14529L12.9713 10.8544C12.3672 11.1899 11.6328 11.1899 11.0287 10.8544L0.752394 5.14529ZM0.853678 3.00513C0.984025 3.01865 1.11384 3.05818 1.23564 3.12584L12 9.10604L22.7644 3.12584C22.8862 3.05818 23.016 3.01866 23.1463 3.00514C23.0386 2.16313 22.819 1.57639 22.3713 1.12868C21.4926 0.25 20.0784 0.25 17.25 0.25H6.75C3.92157 0.25 2.50736 0.25 1.62868 1.12868C1.18097 1.57639 0.961382 2.16313 0.853678 3.00513Z" fill="#a5b3ce"/>
               </svg>    
               <p class="menu-text">Contact</p>
             </a>
           </div>
-          <button type="button" style="box-shadow: none;" class="btn-close mt-1" data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent" aria-label="Close Toggle navigation"></button>
+          <button type="button" style="box-shadow: none; color: #a5b3ce;" class="btn-close mt-2" data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent" aria-label="Close Toggle navigation"></button>
         </div>
       </div>
     </div>
@@ -96,37 +96,37 @@
 
     <!-- side menu mobile view -->
     <div class="d-lg-none">
-      <div class="collapse mx-auto" style="width: 90%" id="navbarToggleExternalContent" data-bs-theme="dark">
+      <div class="collapse mx-auto side-menu" style="width: 80%" id="navbarToggleExternalContent" data-bs-theme="dark">
         <div class="mt-4 d-flex justify-content-around align-itmes-center text-center" style="background-color: #3E4147; border-radius: 5px;">
           <div class="pt-lg-0 mt-3">
             <a href="#" style="text-decoration: none;">
-              <svg width="22" height="25" viewBox="0 0 22 23" fill="none" xmlns="http://www.w3.org/2000/svg">
-                  <path d="M20.7555 21.2169C21.3451 21.094 21.6962 20.478 21.4164 19.9446C20.6659 18.5139 19.438 17.2568 17.8485 16.3082C15.8838 15.1356 13.4765 14.5 11 14.5C8.52346 14.5 6.11615 15.1356 4.1514 16.3082C2.56196 17.2568 1.33401 18.5139 0.583527 19.9446C0.303753 20.478 0.654828 21.094 1.24444 21.2169L2.8391 21.5492C8.22185 22.671 13.7781 22.671 19.1608 21.5492L20.7555 21.2169Z" fill="white"/>
-                  <circle cx="11" cy="7" r="6.25" fill="white"/>
+              <svg width="22" height="25" viewBox="0 0 22 23" fill="#a5b3ce" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M20.7555 21.2169C21.3451 21.094 21.6962 20.478 21.4164 19.9446C20.6659 18.5139 19.438 17.2568 17.8485 16.3082C15.8838 15.1356 13.4765 14.5 11 14.5C8.52346 14.5 6.11615 15.1356 4.1514 16.3082C2.56196 17.2568 1.33401 18.5139 0.583527 19.9446C0.303753 20.478 0.654828 21.094 1.24444 21.2169L2.8391 21.5492C8.22185 22.671 13.7781 22.671 19.1608 21.5492L20.7555 21.2169Z" fill="#a5b3ce"/>
+                  <circle cx="11" cy="7" r="6.25" fill="#a5b3ce"/>
               </svg>
               <p class="menu-text">About</p>
             </a>
           </div>
           <div class="pt-lg-1 mt-3">
             <a href="#" style="text-decoration: none;">
-              <svg width="20" height="26" viewBox="0 0 18 22" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path fill-rule="evenodd" clip-rule="evenodd" d="M6.67505 20.5893L1.92505 17.1965C1.1039 16.6099 0.693329 16.3167 0.471665 15.8859C0.25 15.4552 0.25 14.9507 0.25 13.9415V8.05849C0.25 7.73714 0.25 7.46696 0.257158 7.23403L8 12.7646V21.4813C7.64325 21.2809 7.22699 20.9836 6.67505 20.5893ZM10 21.4813C10.3567 21.2809 10.773 20.9836 11.325 20.5893L16.075 17.1965L16.075 17.1965C16.8961 16.6099 17.3067 16.3167 17.5283 15.8859C17.75 15.4552 17.75 14.9507 17.75 13.9415V8.05849C17.75 7.73714 17.75 7.46696 17.7428 7.23403L10 12.7646V21.4813ZM16.8776 5.39429L9 11.0211L1.12244 5.39429C1.33373 5.22593 1.59653 5.03821 1.92505 4.80355L6.67505 1.4107L6.67505 1.4107C7.79773 0.608782 8.35907 0.207825 9 0.207825C9.64093 0.207825 10.2023 0.608783 11.325 1.4107L16.075 4.80356C16.4035 5.03821 16.6663 5.22593 16.8776 5.39429Z" fill="white"/>
+              <svg width="20" height="26" viewBox="0 0 18 22" fill="#a5b3ce" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M6.67505 20.5893L1.92505 17.1965C1.1039 16.6099 0.693329 16.3167 0.471665 15.8859C0.25 15.4552 0.25 14.9507 0.25 13.9415V8.05849C0.25 7.73714 0.25 7.46696 0.257158 7.23403L8 12.7646V21.4813C7.64325 21.2809 7.22699 20.9836 6.67505 20.5893ZM10 21.4813C10.3567 21.2809 10.773 20.9836 11.325 20.5893L16.075 17.1965L16.075 17.1965C16.8961 16.6099 17.3067 16.3167 17.5283 15.8859C17.75 15.4552 17.75 14.9507 17.75 13.9415V8.05849C17.75 7.73714 17.75 7.46696 17.7428 7.23403L10 12.7646V21.4813ZM16.8776 5.39429L9 11.0211L1.12244 5.39429C1.33373 5.22593 1.59653 5.03821 1.92505 4.80355L6.67505 1.4107L6.67505 1.4107C7.79773 0.608782 8.35907 0.207825 9 0.207825C9.64093 0.207825 10.2023 0.608783 11.325 1.4107L16.075 4.80356C16.4035 5.03821 16.6663 5.22593 16.8776 5.39429Z" fill="#a5b3ce"/>
               </svg>
               <p class="menu-text">Projects</p>
             </a>
           </div>
           <div class="pt-lg-2 mt-3">
             <a href="#" style="text-decoration: none;">
-              <svg width="20" height="25" viewBox="0 0 20 25" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path fill-rule="evenodd" clip-rule="evenodd" d="M7.5 0.25C5.84315 0.25 4.5 1.59315 4.5 3.25H4.375C2.61942 3.25 1.74163 3.25 1.11107 3.67133C0.838099 3.85372 0.603722 4.0881 0.421326 4.36107C0 4.99163 0 5.86942 0 7.625V19.5C0 21.857 0 23.0355 0.732233 23.7678C1.46447 24.5 2.64298 24.5 5 24.5H15C17.357 24.5 18.5355 24.5 19.2678 23.7678C20 23.0355 20 21.857 20 19.5V7.625C20 5.86942 20 4.99163 19.5787 4.36107C19.3963 4.0881 19.1619 3.85372 18.8889 3.67133C18.2584 3.25 17.3806 3.25 15.625 3.25H15.5C15.5 1.59315 14.1569 0.25 12.5 0.25H7.5ZM7.75 3.25C7.75 2.69772 8.19771 2.25 8.75 2.25H11.25C11.8023 2.25 12.25 2.69772 12.25 3.25C12.25 3.80228 11.8023 4.25 11.25 4.25H8.75C8.19771 4.25 7.75 3.80228 7.75 3.25ZM6.25 11C5.69772 11 5.25 11.4477 5.25 12C5.25 12.5523 5.69772 13 6.25 13H13.75C14.3023 13 14.75 12.5523 14.75 12C14.75 11.4477 14.3023 11 13.75 11H6.25ZM6.25 16C5.69772 16 5.25 16.4477 5.25 17C5.25 17.5523 5.69772 18 6.25 18H11.25C11.8023 18 12.25 17.5523 12.25 17C12.25 16.4477 11.8023 16 11.25 16H6.25Z" fill="white"/>
+              <svg width="20" height="24" viewBox="0 0 20 25" fill="#a5b3ce" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M7.5 0.25C5.84315 0.25 4.5 1.59315 4.5 3.25H4.375C2.61942 3.25 1.74163 3.25 1.11107 3.67133C0.838099 3.85372 0.603722 4.0881 0.421326 4.36107C0 4.99163 0 5.86942 0 7.625V19.5C0 21.857 0 23.0355 0.732233 23.7678C1.46447 24.5 2.64298 24.5 5 24.5H15C17.357 24.5 18.5355 24.5 19.2678 23.7678C20 23.0355 20 21.857 20 19.5V7.625C20 5.86942 20 4.99163 19.5787 4.36107C19.3963 4.0881 19.1619 3.85372 18.8889 3.67133C18.2584 3.25 17.3806 3.25 15.625 3.25H15.5C15.5 1.59315 14.1569 0.25 12.5 0.25H7.5ZM7.75 3.25C7.75 2.69772 8.19771 2.25 8.75 2.25H11.25C11.8023 2.25 12.25 2.69772 12.25 3.25C12.25 3.80228 11.8023 4.25 11.25 4.25H8.75C8.19771 4.25 7.75 3.80228 7.75 3.25ZM6.25 11C5.69772 11 5.25 11.4477 5.25 12C5.25 12.5523 5.69772 13 6.25 13H13.75C14.3023 13 14.75 12.5523 14.75 12C14.75 11.4477 14.3023 11 13.75 11H6.25ZM6.25 16C5.69772 16 5.25 16.4477 5.25 17C5.25 17.5523 5.69772 18 6.25 18H11.25C11.8023 18 12.25 17.5523 12.25 17C12.25 16.4477 11.8023 16 11.25 16H6.25Z" fill="#a5b3ce"/>
               </svg>
               <p class="menu-text">Resume</p>
             </a>
           </div>
           <div class="pt-lg-2 mt-3">
             <a href="#" style="text-decoration: none;">
-              <svg width="24" height="19" viewBox="0 0 24 18" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path fill-rule="evenodd" clip-rule="evenodd" d="M0.752394 5.14529C0.75 5.48754 0.75 5.85498 0.75 6.25V11.75C0.75 14.5784 0.75 15.9926 1.62868 16.8713C2.50736 17.75 3.92157 17.75 6.75 17.75H17.25C20.0784 17.75 21.4926 17.75 22.3713 16.8713C23.25 15.9926 23.25 14.5784 23.25 11.75V6.25C23.25 5.85498 23.25 5.48754 23.2476 5.14529L12.9713 10.8544C12.3672 11.1899 11.6328 11.1899 11.0287 10.8544L0.752394 5.14529ZM0.853678 3.00513C0.984025 3.01865 1.11384 3.05818 1.23564 3.12584L12 9.10604L22.7644 3.12584C22.8862 3.05818 23.016 3.01866 23.1463 3.00514C23.0386 2.16313 22.819 1.57639 22.3713 1.12868C21.4926 0.25 20.0784 0.25 17.25 0.25H6.75C3.92157 0.25 2.50736 0.25 1.62868 1.12868C1.18097 1.57639 0.961382 2.16313 0.853678 3.00513Z" fill="#FFFDFD"/>
+              <svg width="24" height="19" viewBox="0 0 24 18" fill="#a5b3ce" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M0.752394 5.14529C0.75 5.48754 0.75 5.85498 0.75 6.25V11.75C0.75 14.5784 0.75 15.9926 1.62868 16.8713C2.50736 17.75 3.92157 17.75 6.75 17.75H17.25C20.0784 17.75 21.4926 17.75 22.3713 16.8713C23.25 15.9926 23.25 14.5784 23.25 11.75V6.25C23.25 5.85498 23.25 5.48754 23.2476 5.14529L12.9713 10.8544C12.3672 11.1899 11.6328 11.1899 11.0287 10.8544L0.752394 5.14529ZM0.853678 3.00513C0.984025 3.01865 1.11384 3.05818 1.23564 3.12584L12 9.10604L22.7644 3.12584C22.8862 3.05818 23.016 3.01866 23.1463 3.00514C23.0386 2.16313 22.819 1.57639 22.3713 1.12868C21.4926 0.25 20.0784 0.25 17.25 0.25H6.75C3.92157 0.25 2.50736 0.25 1.62868 1.12868C1.18097 1.57639 0.961382 2.16313 0.853678 3.00513Z" fill="##a5b3ce"/>
               </svg>    
               <p class="menu-text">Contact</p>
             </a>
@@ -142,12 +142,36 @@
         <div class="col-lg-8 col-11 profile-information">
           <img src="/static/img/IMG_2178.jpg" alt="Profile Image">
           <p class="name p-1 m-0">AlWaleed Musa</p>
-          <p class="summary text-center p-1 m-0">Dynamic junior software developer passionate about crafting intuitive interfaces and innovative solutions. Proficient in web technologies and committed to ongoing learning.</p>
+          <p class="summary text-center p-1 m-0">
+            Hi, I'm Waleed, a Junior Full Stack Django Developer. I graduated from Alx-Holberton and I'm passionate about turning ideas into live projects. My ambition is to create innovative solutions that make a difference</p>
           <button class="button resume-button">View Resume</button>
         </div>
       </div>
     </div>
     <!-- end of personal information -->
+
+    <!-- skills -->
+    <div class="container mt-5 pt-5">
+      <h2 class="big-header text-center">Skills</h2>
+      <div class="row">
+        <div class="col-lg-8 skills-information">
+          <div class="skills-information d-flex justify-content-around pb-4">
+            <img src="/static/img/python.png" alt="">
+            <img src="/static/img/bash.png" alt="">
+            <img src="/static/img/django.png" alt="">
+            <img src="/static/img/mysql.png" alt="">
+          </div>
+          <div class="skills-information d-flex justify-content-around pt-4">
+            <img src="/static/img/html.png" alt="">
+            <img src="/static/img/css.png" alt="">
+            <img src="/static/img/js.png" alt="">
+            <img src="/static/img/bootstrap.png" alt="">
+          </div>
+          <p class="summary text-center w-100 mt-5">And More</p>
+        </div>
+      </div>
+    </div>
+    <!-- end of skills -->
 
     <!-- feature projects -->
     <div class="container mt-5 pt-5">
@@ -197,28 +221,6 @@
     </div> 
     <!-- end of feature projects -->
 
-    <!-- skills -->
-    <div class="container mt-5 pt-5">
-      <h2 class="big-header text-center">Skills</h2>
-      <div class="row">
-        <div class="col-lg-8 skills-information">
-          <div class="skills-information d-flex justify-content-around pb-4">
-            <img src="/static/img/python.png" alt="">
-            <img src="/static/img/bash.png" alt="">
-            <img src="/static/img/django.png" alt="">
-            <img src="/static/img/mysql.png" alt="">
-          </div>
-          <div class="skills-information d-flex justify-content-around pt-4">
-            <img src="/static/img/html.png" alt="">
-            <img src="/static/img/css.png" alt="">
-            <img src="/static/img/js.png" alt="">
-            <img src="/static/img/bootstrap.png" alt="">
-          </div>
-          <p class="summary text-center w-100 mt-5">And More</p>
-        </div>
-      </div>
-    </div>
-    <!-- end of skills -->
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
   </body>
