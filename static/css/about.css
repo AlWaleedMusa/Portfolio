@@ -1,11 +1,21 @@
+/* mobile view */
 @media screen and (max-width:576px) {
     .skills-information img {
-        width: 40px;
-        height: 40px;
+        width: 50px;
+        height: 50px;
         margin-top: 30px;
+    }
+
+    .big-header {
+        font-size: 2.2em;
+    }
+
+    .name {
+        font-size: 1.5em;
     }
 }
 
+/* large view */
 @media screen and (min-width: 576px) {
     .skills-information img {
         width: 75px;
@@ -13,8 +23,18 @@
         margin-top: 50px;
 
     }
+
+    .big-header {
+        font-size: 2.5em;
+    }
+
+    .name {
+        font-size: 1.8em;
+    }
 }
 
+
+/* general view */
 body {
     background-color: #2A2C31;
     padding: 0;
@@ -34,19 +54,24 @@ body {
 }
 
 .socials a svg:hover {
-    fill: #e96750;
+    fill: #ffc857;
     transition: all 0.3s ease;
 }
 
 .hire-me-btn {
-    background-color: #e96750;
+    background-color: #ffc857;
     width: 6em;
     height: 2.2em;
     border-radius: 50px;
     border: none;
-    color: #FFFFFF;
+    color: #323031;
     font-weight: 700;
     font-size: 16px;
+}
+
+.big-header {
+    font-weight: 900;
+    color: #FFFFFF;
 }
 
 .profile-information {
@@ -73,7 +98,6 @@ body {
 .name {
     font-weight: 900;
     letter-spacing: .8px;
-    font-size: 1.8em;
     color: #FFFFFF;
 }
 
@@ -111,12 +135,6 @@ body {
     margin: 0 auto;
 }
 
-.big-header {
-    font-weight: 900;
-    font-size: 2.5em;
-    color: #FFFFFF;
-}
-
 .small-header {
     font-weight: 700;
     font-size: 20px;
@@ -138,11 +156,11 @@ body {
 }
 
 .side-menu a:focus svg path, a:focus svg circle{
-    fill: #e96750;
+    fill: #ffc857;
     transition: all 0.2s ease;
 }
 .side-menu a:focus p {
-    color: #e96750;
+    color: #ffc857;
     transition: all 0.2s ease;
 
 }
