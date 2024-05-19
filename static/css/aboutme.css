@@ -66,3 +66,23 @@ body {
     text-align: center;
     font-weight: 300;
 }
+
+.active-icon svg path, svg circle{
+    fill: #ffc857;
+    transition: all 0.2s ease;
+}
+.active-icon p {
+    color: #ffc857;
+    transition: all 0.2s ease;
+
+}
+
+/* .side-menu a:not(:active):hover svg path, a:not(:active):hover svg circle {
+    fill: hsl(0, 0%, 100%, .9);
+    transition: all 0.2s ease;
+}
+
+.side-menu a:not(:active):hover p {
+    color: hsl(0, 0%, 100%, .9);
+    transition: all 0.2s ease;
+} */
