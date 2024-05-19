@@ -3,10 +3,17 @@
     img {
         width: 100%;
         height: auto;
+        float: left
     }
 
     .quote p {
         font-size: 1em;
+    }
+}
+
+@media screen and (max-width:992px) {
+    .aboutme p {
+        text-align: center;
     }
 }
 
