@@ -1,8 +1,8 @@
 /* mobile view */
 @media screen and (max-width:576px) {
     .skills-information img {
-        width: 50px;
-        height: 50px;
+        width: 60px;
+        height: 60px;
         margin-top: 30px;
     }
 
@@ -13,13 +13,19 @@
     .name {
         font-size: 1.5em;
     }
+
+    .projects-information img {
+        width: 100%;
+        height: auto;
+        border-radius: 10px;
+    }
 }
 
 /* large view */
 @media screen and (min-width: 576px) {
     .skills-information img {
-        width: 75px;
-        height: 80px;
+        width: 85px;
+        height: 90px;
         margin-top: 50px;
 
     }
@@ -30,6 +36,12 @@
 
     .name {
         font-size: 1.8em;
+    }
+
+    .projects-information img{
+        width: 100%;
+        height: 200px;
+        border-radius: 10px;
     }
 }
 
@@ -95,6 +107,7 @@ body {
     border-radius: 50%;
     margin-top: -80px;
     border: 6px solid #3E4147;
+    object-fit: cover;
 }
 
 .name {
@@ -165,6 +178,10 @@ body {
     color: #ffc857;
     transition: all 0.2s ease;
 
+}
+
+.microjumper-bg {
+    background: linear-gradient(135deg, #be5d34, #2A2C31);
 }
 
 /* .side-menu a:focus svg path, a:focus svg circle{
