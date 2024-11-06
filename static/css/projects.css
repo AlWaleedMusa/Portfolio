@@ -1,0 +1,29 @@
+@media (max-width: 768px) {
+    .project-buttons {
+        margin-top: 250px;
+    }
+
+    .project-text {
+        margin-top: 2em;
+    }
+}
+
+.project-buttons a {
+    width: 100px;
+    /* margin-top: 20px; */
+    font-size: 1em;
+    background-color: #ffc857;
+    border-radius: 20px;
+    font-weight: 500;
+}
+
+.project-button:hover {
+    background-color: #e7b44f;
+    color: #2A2C31;
+}
+
+.technologies img {
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+}
