@@ -67,14 +67,9 @@ body {
     font-weight: 300;
 }
 
-.active-icon svg path, svg circle{
+.aboutme-active-icon svg path, .aboutme-active-icon svg circle{
     fill: #ffc857;
     transition: all 0.2s ease;
-}
-.active-icon p {
-    color: #ffc857;
-    transition: all 0.2s ease;
-
 }
 
 /* .side-menu a:not(:active):hover svg path, a:not(:active):hover svg circle {

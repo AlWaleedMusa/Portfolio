@@ -174,7 +174,7 @@ body {
     fill: #ffc857;
     transition: all 0.2s ease;
 }
-.active-icon p {
+.active-icon p, .aboutme-active-icon p {
     color: #ffc857;
     transition: all 0.2s ease;
 
