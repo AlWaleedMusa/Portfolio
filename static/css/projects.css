@@ -17,8 +17,8 @@
     font-weight: 500;
 }
 
-.project-button:hover {
-    background-color: #e7b44f;
+.project-buttons a:hover {
+    background-color: #ffbc36;
     color: #2A2C31;
 }
 
