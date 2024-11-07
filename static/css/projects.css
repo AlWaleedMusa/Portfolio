@@ -8,8 +8,14 @@
     }
 }
 
+@media (min-width: 768px) {
+    .pysudan-logo {
+        margin-top: -40px;
+    }
+}
+
 .project-buttons a {
-    width: 100px;
+    padding: 5px 20px;
     /* margin-top: 20px; */
     font-size: 1em;
     background-color: #ffc857;
