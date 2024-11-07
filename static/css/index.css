@@ -70,6 +70,10 @@ body {
     min-width: 320px;
 }
 
+p {
+    color: #a5b3ce;
+}
+
 .socials {
     width: 30%;
     height: 50px;
